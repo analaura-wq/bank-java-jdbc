@@ -1,48 +1,19 @@
 package br.sesi.bank.bank_java_jdbc.controller;
 
-import br.sesi.bank.bank_java_jdbc.domain.cliente.DadosCadastroCliente;
+import java.sql.SQLException;
+import java.util.Scanner;
 
 public class BankJavaController {
-    public Integer numero;
-    public DadosCadastroCliente dadosCliente;
-
-    public BankJavaController(){
-    }
-
-    public static void main(String[] args) {
-    }
-
-    public void start(){
-    }
-
-    public void exibirMenu(){
-
-    }
-
-    public void listarContas(){
-    }
-
-    public void abrirConta(){
-
-
-    }
-
-    public void encerrarConta(){
-
-
-    }
-
-    public void consultarSaldo(){
-
-
-    }
-
-    public void realizarSaque(){
-    }
-
-    public void realizarDeposito(){
-    }
-
-    public void realizarTransferencia(){
-    }
+    Scanner teclado;
+    public BankJavaController() { }
+    public static void main(String[] args) throws SQLException { }
+    public void start() throws SQLException { }
+    private int exibirMenu() {return 0;}
+    private void listarContas() { }
+    private void abrirConta() throws SQLException { }
+    private void encerrarConta() { }
+    private void consultarSaldo() { }
+    private void realizarSaque() { }
+    private void realizarDeposito() { }
+    private void realizarTransferencia() { }
 }
